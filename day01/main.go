@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	leftList, rightList, err := createLists("day02_input.txt")
+	leftList, rightList, err := createLists("day01_input.txt")
 	if err != nil {
 		panic(err)
 	}
